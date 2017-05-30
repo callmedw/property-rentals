@@ -25,5 +25,14 @@
     "author": "Alex",
     "rating": 9,
     "content": "Nice view of the volcano!"
+  }],
+  "announcements": [{
+    "sales": "Portland Apartment",
+    "weather": "crazy hot",
+    "news": "trimet madness"
+  }, {
+    "sales": "LA Bungalow",
+    "weather": "perfect",
+    "news": "celebrity stuff"
   }]
 }

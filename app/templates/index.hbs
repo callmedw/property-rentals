@@ -21,3 +21,15 @@
 </ul>
 
 {{new-review saveReview="saveReview"}}
+
+<h2> Announcements! </h2>
+<ul>
+  {{#each model.announcements as |announcement|}}
+    <li>{{announcement.sales}} - {{announcement.weather}} - {{announcement.news}}</li>
+    <button {{action 'delete' announcement}}>Delete Announcement</button>
+  {{/each}}
+</ul>
+
+{{new-announcement saveAnnouncement="saveAnnouncement"}}
+
+<!-- {{index destroyAnnouncement="destroyAnnouncement"}} -->
